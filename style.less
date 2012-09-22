@@ -1,0 +1,39 @@
+@import "less/bootstrap.less";
+@import url(http://fonts.googleapis.com/css?family=Bubbler+One);
+
+@textColor: 				#494949;
+@wellbackground: 		#FFF;
+@sansFontFamily:		'Bubbler One', sans-serif;
+@green:							#58b947;
+@blue: 							#38c0c4;
+@red:								#c43a38;
+
+body {
+	padding-bottom: 40px;
+	background: url('img/bg.gif') repeat;
+}
+
+.well {
+	border-left: 1px dashed darken(@wellBackground, 67.5%);
+  .border-radius(0px);
+  .box-shadow(8px 8px 6px rgba(0,0,0,.05));
+}
+
+.tricolor {
+	height: 6px;
+	width: 100%;
+	border-bottom: 1px solid @white;
+	background: @green; /* Old browsers */
+	background: -moz-linear-gradient(left,  @green 33%, @blue 33%, @blue 66%, @red 66%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(33%,@green), color-stop(33%,@blue), color-stop(66%,@blue), color-stop(66%,@red)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  @green 33%,@blue 33%,@blue 66%,@red 66%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  @green 33%,@blue 33%,@blue 66%,@red 66%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  @green 33%,@blue 33%,@blue 66%,@red 66%); /* IE10+ */
+	background: linear-gradient(to right,  @green 33%,@blue 33%,@blue 66%,@red 66%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@green', endColorstr='@red',GradientType=1 ); /* IE6-9 */
+
+}
+
+.container {
+	padding-top: 60px;
+}
