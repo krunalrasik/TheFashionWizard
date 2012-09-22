@@ -8,6 +8,4 @@ This website is going to be a fasihon design portfolio of a budding fashion desi
 Get in touch
 ----------
 
-Have a question? Ask on our mailing list!
-
 mohini@thefashionwizard.com
